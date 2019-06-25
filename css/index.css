@@ -1,0 +1,64 @@
+html {
+    background: #f0f3ef;
+}
+
+.header-image {
+    height: 82px;
+}
+
+.header-image img {
+    display: block;
+}
+
+.container {
+    width: 1198px;
+    margin: 0 auto;
+}
+
+header {
+    height: 30px;
+    background: #e3e4e5;
+    line-height: 30px;
+}
+
+.city-header {
+    margin-left: 208px;
+}
+
+.footers-top {
+    width: 100px;
+    height: 30px;
+}
+
+footer {
+    border-top: 2px solid #e3e4e5;
+}
+
+.footer-top {
+    height: 40px;
+    line-height: 40px
+}
+
+.footer-top li {
+    float: left;
+    padding: 0px 10px 0px 0px;
+    position: relative;
+}
+
+.footer-top span {
+    font-weight: 400;
+}
+
+.footer-top li:after {
+    content: "|";
+    padding-left: 10px;
+    color: #e3e4e5;
+}
+
+.footer-top li::after:last-of-type {
+    content: none;
+}
+
+.footer-icp li {
+    float: left;
+}

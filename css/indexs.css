@@ -1,0 +1,13 @@
+html {
+  background: #ddd;
+}
+
+a {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+a:hover {
+  text-decoration: null;
+}

@@ -1,0 +1,19 @@
+$color: #ddd;
+$font:14;
+$media:screen;
+$max-width:1400px;
+html {
+    background: $color;
+}
+
+;
+a {
+    display: block;
+    width: 100px;
+    height: 100px;
+    &:hover {
+        text-decoration: null;
+    }
+}
+
+@media screen and (max-wdith:$max-width) {}
