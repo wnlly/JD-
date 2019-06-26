@@ -25,6 +25,11 @@ header {
     margin-left: 208px;
 }
 
+.search {
+    padding-top: 20px;
+    background: #f0f3ef;
+}
+
 .footers-top {
     width: 100px;
     height: 30px;
@@ -60,5 +65,23 @@ footer {
 }
 
 .footer-icp li {
+    float: left;
+}
+
+.footer-icp span {}
+
+.footer-hulianwangchuban li {
+    float: left;
+}
+
+.footer-globalsite li {
+    float: left;
+}
+
+.footer-wallet li {
+    float: left;
+}
+
+.footer-jubao li {
     float: left;
 }
